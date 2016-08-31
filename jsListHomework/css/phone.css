@@ -1,0 +1,34 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+/*对整个手机屏幕div设置*/
+.phoneScreen{
+	width: 400px;
+	height: 600px;
+	border: thick solid yellow;
+	margin: 0px auto;
+}
+/*设置显示item的div*/
+.mianScreen{
+	width: 400px;
+	height: 550px;
+	background-color: cornsilk;
+	overflow: scroll;
+}
+/*设置button显示的div*/
+.buttonScreen{
+	box-sizing: border-box;
+	width: 400px;
+	height: 50px;
+	background-color: blanchedalmond;
+	padding-top: 20px;
+}
+/*设置button居中*/
+.buttonScreen>button{
+	display: block;
+	margin: 0px auto;
+}
+
+
